@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Scilab by microdaq</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Scilab</h1>
+        <p class="header">MicroDAQ toolbox for Scilab</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/microdaq/Scilab/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/microdaq/Scilab/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/microdaq/Scilab">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/microdaq">microdaq</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="microdaq-toolbox-for-scilab" class="anchor" href="#microdaq-toolbox-for-scilab" aria-hidden="true"><span class="octicon octicon-link"></span></a>MicroDAQ toolbox for Scilab</h1>
+
+<p>Develop real-time control and measurement aplication for free!</p>
+
+<h1>
+<a id="descprition" class="anchor" href="#descprition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Descprition</h1>
+
+<p>MicroDAQ toolbox conbines Scilab/XCos environment with Embedded Solutions MicroDAQ real-time control measurement system equpted with TI C6000 DSP. Module extends Scilab by allowing user to automatically generate DSP applications directly from XCos scheme. User can use custom XCos blocks which gives access to MicroDAQ hardware (ADC, DAC, DIO, PWM, UART, Quadrature Encoder). Generated DSP application utilizes SYS/BIOS real-time opearting system combined with code generated from XCos scheme.</p>
+
+<h1>
+<a id="key-features" class="anchor" href="#key-features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Key Features</h1>
+
+<ul>
+<li>Real-time code generation for Texas Instruments C6000 DSPs </li>
+<li>Code generation from Xcos model </li>
+<li>Standalone model generation</li>
+<li>Blocks for MicroDAQ analog and digital I/O</li>
+<li>DSP data live access with standard Xcos sinks</li>
+<li>Execution profiling </li>
+<li>Integration with LabVIEW </li>
+<li>Windows and Linux support</li>
+<li>Block generator for custom/legacy user code </li>
+</ul>
+
+<h1>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h1>
+
+<p>This package is integrated with Scilab Atoms installer. In order to use toolbox download Scilab software (version 5.4 or newer) and run atomsInstall('microdaq') from Scilab console. After MicroDAQ toolbox start run microdaq_setup to configure compiler and IP settings.</p>
+
+<ul>
+<li><a href="http://atoms.scilab.org/toolboxes/microdaq">MicroDAQ toolbox Atoms website</a></li>
+</ul>
+
+<h1>
+<a id="known-issues" class="anchor" href="#known-issues" aria-hidden="true"><span class="octicon octicon-link"></span></a>Known Issues</h1>
+
+<ul>
+<li>Xcos context doesn't work with code generation</li>
+<li>Only one Signal block supported when running model from external application or Scilab script</li>
+<li>Missing help for blocks and functions</li>
+<li>Demos for MicroDAQ blocks</li>
+</ul>
+
+<h1>
+<a id="support" class="anchor" href="#support" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support</h1>
+
+<p>This package is support by Embedded Solutions. Issues and problems with software can be raported on: </p>
+
+<pre><code>    support@embedded-solutions.pl
+</code></pre>
+
+<h1>
+<a id="required-software-dependencies" class="anchor" href="#required-software-dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Required software (dependencies)</h1>
+
+<ul>
+<li>
+<a href="http://www.scilab.org">Scilab 5.4</a> or newer (free)</li>
+<li>
+<a href="http://processors.wiki.ti.com/index.php/Download_CCS#Code_Composer_Studio_Version_5_Downloads">Texas Instruments Code Composer Studio 5.5</a> with SYS/BIOS and C6000 compiler installed (free with XDX100 emulator license)</li>
+</ul>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
